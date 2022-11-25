@@ -1,0 +1,28 @@
+@import './src/styles/root';
+
+
+.header{
+  height: 80px;
+  background-color: aquamarine;
+
+  .headerWrapper{
+    @extend %autoCenterWidthBlock;
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    .nav {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin: 0 10px;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        min-width: 340px;
+        border: 2px solid #000;
+      }
+    }
+  }
+}

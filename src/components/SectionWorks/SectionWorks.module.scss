@@ -1,0 +1,27 @@
+@import './src/styles/root';
+
+
+.blockTwo{
+  background-color: #7fff9d;
+  padding: 40px 0;
+  .blockWrapper{
+    @extend %autoCenterWidthBlock;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 1px solid black;
+    .title{
+
+    }
+
+    .skillsAndWorks{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%;
+      margin: 20px 0;
+    }
+  }
+}

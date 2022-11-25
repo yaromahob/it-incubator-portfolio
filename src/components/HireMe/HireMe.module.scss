@@ -1,0 +1,29 @@
+@import './src/styles/root';
+
+.hireMe {
+  background-color: antiquewhite;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  .hireMeWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 0;
+    border: 1px solid black;
+
+    h3{
+      font-size: 28px;
+      text-align: center;
+    }
+
+    button{
+      width: 150px;
+      height: 30px;
+      font-size: 20px;
+    }
+  }
+}

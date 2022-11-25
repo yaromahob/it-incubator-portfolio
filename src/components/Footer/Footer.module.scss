@@ -1,0 +1,38 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background-color: #7fff9d;
+
+  .footerWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1440px;
+    border: 1px solid black;
+    padding: 20px 10px;
+
+
+
+    .someBlockWrapper{
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid black;
+      width: 100%;
+      max-width: 450px;
+      .someBlock{
+        width: 60px;
+        height: 60px;
+        background-color: #9b9b9b;
+      }
+    }
+
+    .allRight{
+      display: flex;
+
+    }
+  }
+}

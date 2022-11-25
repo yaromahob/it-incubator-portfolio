@@ -1,0 +1,79 @@
+
+.forCommunication{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+
+  .forCommunicationWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    border: 1px solid black;
+
+    h3{
+      font-size: 30px;
+    }
+
+    .feedBack{
+      width: 350px;
+      .form{
+        .formExample{
+          position: relative;
+          display: flex;
+          justify-content: center;
+          border: 1px solid black;
+          height: 40px;
+          margin: 15px 0;
+          border-radius: 15px;
+
+          .label{
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            width: 103px;
+            font-size: 14px;
+            text-align: center;
+            background-color: #fff;
+          }
+          input{
+            width: 90%;
+            height: 95%;
+            font-size: 18px;
+            text-align: center;
+            border: none;
+            outline: none;
+          }
+
+
+        }
+      }
+      .yourText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 15px;
+        textarea{
+          padding: 5px;
+          width: 230px;
+          height: 100px;
+          border: none;
+          background: transparent;
+          resize: none;
+          overflow: auto;
+          outline: none;
+          text-align: center;
+        }
+      }
+    }
+    .submit{
+      margin: 10px 0;
+      min-width: 200px;
+      height: 30px;
+      font-size: 20px;
+      letter-spacing: 4px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import './src/styles/root';
+
+.blockOne {
+  background-color: lightpink;
+  padding: 40px 0;
+  .blockWrapper{
+    @extend %autoCenterWidthBlock;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+    .aboutMe{
+      display: flex;
+      flex-direction: column;
+      background-color: #9b9b9b;
+      span{
+        font-size: 24px;
+      }
+    }
+    .avatar {
+      max-width: 360px;
+      background-color: #9b9b9b;
+
+      img{
+        width: 360px;
+      }
+    }
+  }
+}
