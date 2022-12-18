@@ -13,6 +13,8 @@
     background: $backgroundGradient;
     box-shadow: $boxShadow;
     border-radius: 15px;
+    padding: 20px;
+
     .title{
       @include sectionTitle();
     }

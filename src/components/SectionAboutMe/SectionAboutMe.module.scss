@@ -59,4 +59,72 @@
       }
     }
   }
+  
+
+}
+
+@media (max-width: 1180px) {
+  .blockOne {
+    .blockWrapper{
+      flex-direction: column-reverse;
+      .aboutMe{
+        width: 100%;
+      }
+      .avatar{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 620px) {
+  .blockOne {
+    .blockWrapper{
+      .aboutMe{
+        .welcome{
+          font-size: 20px;
+        }
+        .title{
+          font-size: 26px;
+          span{
+            font-size: 26px;
+            letter-spacing: 1.2px;
+          }
+        }
+        span{
+          font-size: 26px;
+          letter-spacing: 1px;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 401px) {
+  .blockOne {
+    .blockWrapper{
+      .aboutMe{
+        padding: 10px;
+        .welcome{
+        }
+        .title{
+          font-size: 24px;
+          span{
+            font-size: 24px;
+            letter-spacing: 1px;
+          }
+        }
+        span{
+          font-size: 24px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
 }

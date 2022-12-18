@@ -3,6 +3,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: center;
+  padding: 20px 0;
   .hireMeWrapper{
     display: flex;
     flex-direction: column;
@@ -11,7 +12,7 @@
     width: 100%;
     max-width: 1440px;
     padding: 20px 0;
-    background: $backgroundGradient;
+    background: linear-gradient(269deg, #e2e8ec, #fff);
     box-shadow: $boxShadow;
     border-radius: 15px;
 
@@ -21,9 +22,12 @@
     }
 
     button{
-      width: 150px;
-      height: 30px;
+      width: 200px;
+      height: 50px;
       font-size: 20px;
+      border-radius: 15px;
+      border: none;
+      box-shadow: $boxShadow;
     }
   }
 }
