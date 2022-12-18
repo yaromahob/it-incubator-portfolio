@@ -1,7 +1,5 @@
-@import './src/styles/root';
-
+@import './src/styles/variables';
 .hireMe {
-  background-color: antiquewhite;
   padding: 40px 0;
   display: flex;
   justify-content: center;
@@ -13,7 +11,9 @@
     width: 100%;
     max-width: 1440px;
     padding: 20px 0;
-    border: 1px solid black;
+    background: $backgroundGradient;
+    box-shadow: $boxShadow;
+    border-radius: 15px;
 
     h3{
       font-size: 28px;

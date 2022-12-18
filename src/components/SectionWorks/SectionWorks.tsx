@@ -1,29 +1,31 @@
 import React from 'react';
-import Works from '../Works/Works';
+import Works from './Works/Works';
 import styles from './SectionWorks.module.scss';
+import todolist from '../../assets/icons/todolist.jpg';
+import socialNetwork from '../../assets/icons/socialNetwork.jpg';
 
 
-const SectionWorks: React.FC<TSectionSkillAndWorks> = ({titleBlock, title, logo, description}) => {
+
+const SectionWorks: React.FC = () => {
   return (<section className={styles.blockTwo}>
     <div className={styles.blockWrapper}>
       
       <h2 className={styles.title}>
-        {titleBlock}
+        My Works
       </h2>
       
       <div className={styles.skillsAndWorks}>
         <Works
-          logo={logo}
-          title={title}
-          description={description}/>
+          logo={todolist}
+          title={'Todolist'}
+          description={'React, Redux, ReduxThunk, Axios'}
+        />
         <Works
-          logo={logo}
-          title={title}
-          description={description}/>
-        <Works
-          logo={logo}
-          title={title}
-          description={description}/>
+          logo={socialNetwork}
+          title={'Social Network'}
+          description={'React, Redux, ReduxThunk, Axios'}
+        />
+
       </div>
     </div>
   </section>);
@@ -31,9 +33,3 @@ const SectionWorks: React.FC<TSectionSkillAndWorks> = ({titleBlock, title, logo,
 
 export default SectionWorks;
 
-type TSectionSkillAndWorks = {
-  titleBlock: string
-  title: string
-  logo: string
-  description: string
-}

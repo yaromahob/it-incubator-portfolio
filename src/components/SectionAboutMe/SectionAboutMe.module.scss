@@ -1,30 +1,61 @@
-@import './src/styles/root';
-
+@import './src/styles/mixins';
+@import './src/styles/variables';
 .blockOne {
-  background-color: lightpink;
-  padding: 40px 0;
+  padding: 50px 10px;
+
   .blockWrapper{
-    @extend %autoCenterWidthBlock;
-    display: flex;
-    align-items: center;
+    @include autoCentrWidthBlock();
+    @include flexItemCentr();
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid #000000;
+
     .aboutMe{
       display: flex;
       flex-direction: column;
-      background-color: #9b9b9b;
-      span{
+      width: 50%;
+      background: $backgroundGradient;
+      box-shadow: $boxShadow;
+      border-radius: 15px;
+      padding: 20px;
+      .welcome{
         font-size: 24px;
+        padding: 20px 0;
+      }
+      .title{
+        font-size: 42px;
+        font-weight: 500;
+        span{
+          color: #1f88de;
+          font-size: 42px;
+          padding-left: 15px;
+          font-weight: 700;
+          letter-spacing: 2px;
+          opacity: 1;
+        }
+      }
+      span{
+        font-size: 42px;
+        letter-spacing: 1px;
+        opacity: 0.7;
+      }
+
+      .discriptions {
+        span{
+          display: block;
+          padding: 5px;
+          font-size: 20px;
+        }
       }
     }
+
     .avatar {
       max-width: 360px;
-      background-color: #9b9b9b;
-
+      box-shadow: $boxShadow;
+      border-radius: 15px;
       img{
         width: 360px;
+        height: 422px;
       }
     }
   }

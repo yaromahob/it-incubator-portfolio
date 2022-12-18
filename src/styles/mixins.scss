@@ -1,0 +1,15 @@
+@import './src/styles/variables';
+@mixin autoCentrWidthBlock() {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@mixin flexItemCentr(){
+  display: flex;
+  align-items: center;
+}
+
+@mixin sectionTitle(){
+  font-size: $sectionTitle;
+  letter-spacing: 5px;
+}

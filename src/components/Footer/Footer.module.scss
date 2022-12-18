@@ -1,8 +1,8 @@
+@import './src/styles/variables';
 .footer{
   display: flex;
   justify-content: center;
   padding: 40px 0;
-  background-color: #7fff9d;
 
   .footerWrapper{
     display: flex;
@@ -12,7 +12,9 @@
     gap: 40px;
     width: 100%;
     max-width: 1440px;
-    border: 1px solid black;
+    background: $backgroundGradient;
+    box-shadow: $boxShadow;
+    border-radius: 15px;
     padding: 20px 10px;
 
 
@@ -20,7 +22,7 @@
     .someBlockWrapper{
       display: flex;
       justify-content: space-between;
-      border: 1px solid black;
+      box-shadow: $boxShadow;
       width: 100%;
       max-width: 450px;
       .someBlock{

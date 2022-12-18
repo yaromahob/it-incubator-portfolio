@@ -1,18 +1,20 @@
-@import './src/styles/root';
+@import './src/styles/mixins';
+@import './src/styles/variables';
 
 
 .blockTwo{
-  background-color: #7fff9d;
   padding: 40px 0;
   .blockWrapper{
-    @extend %autoCenterWidthBlock;
+    @include autoCentrWidthBlock();
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    border: 1px solid black;
+    background: $backgroundGradient;
+    box-shadow: $boxShadow;
+    border-radius: 15px;
     .title{
-
+      @include sectionTitle();
     }
 
     .skillsAndWorks{

@@ -4,7 +4,7 @@ const ForCommunication = () => {
   return (
     <section className={styles.forCommunication}>
       <div className={styles.forCommunicationWrapper}>
-        <h3>Contacts</h3>
+        <h3 className={styles.title}>Contacts</h3>
         <div className={styles.feedBack}>
           <form action="" method="get" className={styles.form}>
             <div className={styles.formExample}>
