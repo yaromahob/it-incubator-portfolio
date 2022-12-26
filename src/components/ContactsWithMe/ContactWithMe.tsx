@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './ForCommunication.module.scss'
-const ForCommunication = () => {
+import styles from './ContactWithMe.module.scss'
+const ContactWithMe = () => {
   return (
     <section className={styles.forCommunication}>
       <div className={styles.forCommunicationWrapper}>
@@ -26,4 +26,4 @@ const ForCommunication = () => {
   );
 };
 
-export default ForCommunication;
+export default ContactWithMe;

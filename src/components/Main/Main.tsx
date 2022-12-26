@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './Main.module.scss'
-import SectionAboutMe from "../SectionAboutMe/SectionAboutMe";
-import SectionSkills from "../SectionSkills/SectionSkills";
 import HireMe from "../HireMe/HireMe";
-import ForCommunication from "../ForCommunication/ForCommunication";
-import SectionWorks from "../SectionWorks/SectionWorks";
+import ContactWithMe from "../ContactsWithMe/ContactWithMe";
+import AboutMe from '../AboutMe/AboutMe';
+import SkillsContainer from "../Skills/SkillsContainer";
+import ProjectsContainer from "../Projects/ProjectsContainer";
 
 
 
@@ -12,11 +12,11 @@ import SectionWorks from "../SectionWorks/SectionWorks";
 const Main = () => {
   return (
     <main className={styles.main}>
-      <SectionAboutMe/>
-      <SectionSkills />
-      <SectionWorks />
+      <AboutMe/>
+      <SkillsContainer />
+      <ProjectsContainer />
       <HireMe/>
-      <ForCommunication/>
+      <ContactWithMe/>
     </main>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './SectionAboutMe.module.scss'
-const SectionAboutMe = () => {
+import styles from './AboutMe.module.scss'
+const AboutMe = () => {
   return (
     <section className={styles.blockOne}>
       <div className={styles.blockWrapper}>
@@ -32,5 +32,5 @@ const SectionAboutMe = () => {
   );
 };
 
-export default SectionAboutMe;
+export default AboutMe;
 

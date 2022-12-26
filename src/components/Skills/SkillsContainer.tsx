@@ -1,6 +1,6 @@
 import React from 'react';
-import Skill from "./Skills/Skill";
-import styles from './SectionSkills.module.scss';
+import Skill from "./Skill/Skill";
+import styles from './SkillsContainer.module.scss';
 import javaScript from '../../assets/icons/javaScript.svg'
 import typeScript from '../../assets/icons/typeScript.svg'
 import react from '../../assets/icons/react.svg'
@@ -13,7 +13,7 @@ import sass from '../../assets/icons/sass.svg'
 import html from '../../assets/icons/html.svg'
 
 
-const SectionSkills: React.FC = () => {
+const SkillsContainer: React.FC = () => {
   return (
     <section className={styles.blockTwo} id='skills'>
     <div className={styles.blockWrapper}>
@@ -77,4 +77,4 @@ const SectionSkills: React.FC = () => {
   </section>);
 };
 
-export default SectionSkills;
+export default SkillsContainer;

@@ -1,16 +1,17 @@
 @import './src/styles/mixins';
 @import './src/styles/variables';
-.blockOne {
-  padding: 50px 10px;
 
-  .blockWrapper{
+.blockOne {
+  padding: 50px 0;
+
+  .blockWrapper {
     @include autoCentrWidthBlock();
     @include flexItemCentr();
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
 
-    .aboutMe{
+    .aboutMe {
       display: flex;
       flex-direction: column;
       width: 50%;
@@ -18,14 +19,17 @@
       box-shadow: $boxShadow;
       border-radius: 15px;
       padding: 20px;
-      .welcome{
+
+      .welcome {
         font-size: 24px;
         padding: 20px 0;
       }
-      .title{
+
+      .title {
         font-size: 42px;
         font-weight: 500;
-        span{
+
+        span {
           color: #1f88de;
           font-size: 42px;
           padding-left: 15px;
@@ -34,14 +38,15 @@
           opacity: 1;
         }
       }
-      span{
+
+      span {
         font-size: 42px;
         letter-spacing: 1px;
         opacity: 0.7;
       }
 
       .discriptions {
-        span{
+        span {
           display: block;
           padding: 5px;
           font-size: 20px;
@@ -53,24 +58,27 @@
       max-width: 360px;
       box-shadow: $boxShadow;
       border-radius: 15px;
-      img{
+
+      img {
         width: 360px;
         height: 422px;
       }
     }
   }
-  
+
 
 }
 
 @media (max-width: 1180px) {
   .blockOne {
-    .blockWrapper{
+    .blockWrapper {
       flex-direction: column-reverse;
-      .aboutMe{
+
+      .aboutMe {
         width: 100%;
       }
-      .avatar{
+
+      .avatar {
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
@@ -84,19 +92,22 @@
 
 @media (max-width: 620px) {
   .blockOne {
-    .blockWrapper{
-      .aboutMe{
-        .welcome{
+    .blockWrapper {
+      .aboutMe {
+        .welcome {
           font-size: 20px;
         }
-        .title{
+
+        .title {
           font-size: 26px;
-          span{
+
+          span {
             font-size: 26px;
             letter-spacing: 1.2px;
           }
         }
-        span{
+
+        span {
           font-size: 26px;
           letter-spacing: 1px;
           opacity: 0.7;
@@ -108,21 +119,31 @@
 
 @media (max-width: 401px) {
   .blockOne {
-    .blockWrapper{
-      .aboutMe{
+    .blockWrapper {
+
+
+      .aboutMe {
         padding: 10px;
-        .welcome{
-        }
-        .title{
+
+
+        .title {
           font-size: 24px;
-          span{
+
+          span {
             font-size: 24px;
             letter-spacing: 1px;
           }
         }
-        span{
+
+        span {
           font-size: 24px;
           letter-spacing: 1px;
+        }
+      }
+
+      .avatar {
+        img {
+          width: 350px;
         }
       }
     }
