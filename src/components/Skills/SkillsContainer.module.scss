@@ -1,9 +1,10 @@
 @import './src/styles/mixins';
 @import './src/styles/variables';
 
-.blockTwo{
+.blockTwo {
   padding: 40px 0;
-  .blockWrapper{
+
+  .blockWrapper {
     @include autoCentrWidthBlock();
     display: flex;
     flex-direction: column;
@@ -13,11 +14,12 @@
     box-shadow: $boxShadow;
     border-radius: 15px;
     padding: 20px;
-    .title{
+
+    .title {
       @include sectionTitle();
     }
 
-    .skillsAndWorks{
+    .skillsAndWorks {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;

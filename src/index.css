@@ -8,7 +8,7 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 
@@ -18,11 +18,11 @@ code {
   box-sizing: border-box;
 }
 
-ul{
+ul {
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000;
 }
@@ -36,6 +36,10 @@ p,
 ul,
 li {
   margin: 0;
+}
+
+section, footer {
+  margin: 0 10px;
 }
 
 body {

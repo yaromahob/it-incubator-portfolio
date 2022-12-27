@@ -7,26 +7,18 @@ const Projects: React.FC<TWorks> = ({
                                       link,
                                       description
                                     }) => {
-  const [active, isActive] = React.useState(false);
-  
-  const isWatchHandler = () => {
-    isActive(!active);
-  };
-  
   
   return (
     <div className={styles.blockWrapper}>
-      <div className={styles.isWatch} onMouseEnter={isWatchHandler} onMouseLeave={isWatchHandler}>
-        <div>
-          {active
-            ? (<div className={styles.watch}>
-              <div className={styles.watchWrapper}>
-                <a href={link} target="_blank" rel="noreferrer">View</a>
-              </div>
-            </div>)
-            : null}
-          <img className={styles.logo} src={logo} alt="logo"/>
+      <div className={styles.isWatch}>
+        <div className={styles.projectWatch}>
+          <div className={styles.watch}>
+            <img className={styles.logo} src={logo} alt="logo"/>
+          </div>
+          <a className={styles.link} href={link} target="_blank" rel="noreferrer">VIEW</a>
+        
         </div>
+        
         <div className={styles.aboutProject}>
           <h3 className={styles.title}>{title}</h3>
           <div>
