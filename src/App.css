@@ -1,3 +1,4 @@
-.App{
-
+.active {
+  position: fixed;
+  overflow: hidden;
 }

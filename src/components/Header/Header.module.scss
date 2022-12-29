@@ -1,28 +1,38 @@
 @import './src/styles/mixins';
 @import './src/styles/variables';
-.header{
+
+.header {
   height: 120px;
   box-shadow: $boxShadow;
-  .headerWrapper{
+
+  .headerWrapper {
     @include autoCentrWidthBlock();
     @include flexItemCentr();
     height: 100%;
     padding: 0 10px;
-    .writeMe{
-      a{
+
+    .writeMe {
+      a {
         @include flexItemCentr();
         gap: 10px;
-        img{
+
+        img {
           width: 100px;
           height: 100px;
         }
       }
     }
+
     .nav {
       display: flex;
       justify-content: flex-end;
       width: 100%;
       margin: 0 10px;
+
+      .burgerMenu {
+        display: none;
+        transition: all 0.5s ease-in-out;
+      }
 
       ul {
         display: flex;
@@ -30,7 +40,7 @@
         min-width: 500px;
 
 
-        li a{
+        li a {
           font-size: 20px;
           letter-spacing: 1.6px;
           opacity: 0.9;
@@ -40,43 +50,123 @@
   }
 }
 
-@media (max-width: 1180px) {
-  .header {
-    .headerWrapper{
-      .nav{
-        ul{
-          min-width: 400px;
-        }
-      }
-      .writeMe{
-        a{
-          h2{
-            display: none;
-          }
-        }
-      }
-    }
-
-
-  }
-
-}
-
-@media (max-width: 550px) {
+@media (max-width: 800px) {
   .header {
     .headerWrapper {
       .nav {
-         ul {
-           min-width: auto;
-           width: 100%;
-         }
-      }
+        margin: 0;
 
-      .writeMe{
-        a{
-          display: none;
+        ul {
+          justify-content: space-evenly;
+          min-width: 360px;
+          width: 70%;
         }
       }
     }
   }
+}
+
+@media (max-width: 620px) {
+  .writeMe {
+    h2 {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  //.header {
+  //  .headerWrapper {
+  //    .nav {
+  //      position: relative;
+  //
+  //      ul {
+  //        position: absolute;
+  //        flex-direction: column;
+  //        align-items: center;
+  //        top: -100px;
+  //        right: -600%;
+  //        width: 115vw;
+  //        height: 115vh;
+  //        background-color: rgba(31, 136, 222, 0.51);
+  //        transition: all 0.4s ease 0s;
+  //      }
+  //
+  //      .burgerMenu {
+  //        display: block;
+  //        margin-right: 20px;
+  //        z-index: 20;
+  //
+  //        span {
+  //          display: block;
+  //          width: 40px;
+  //          height: 5px;
+  //          background-color: #000;
+  //          border-radius: 20px;
+  //          transition: all 0.5s ease-in-out;
+  //        }
+  //
+  //        &:before {
+  //          content: '';
+  //          position: absolute;
+  //          width: 40px;
+  //          height: 5px;
+  //          top: -10px;
+  //          background-color: #000;
+  //          border-radius: 20px;
+  //          transition: all 0.4s ease 0s;
+  //        }
+  //
+  //        &:after {
+  //          content: '';
+  //          position: absolute;
+  //          width: 40px;
+  //          height: 5px;
+  //          top: 10px;
+  //          background-color: #000;
+  //          border-radius: 20px;
+  //          transition: all 0.4s ease 0s;
+  //        }
+  //
+  //      }
+  //
+  //
+  //      .active {
+  //
+  //
+  //        span {
+  //          scale: 0;
+  //        }
+  //
+  //        &:before {
+  //          transform: rotate(45deg);
+  //          top: 0;
+  //        }
+  //
+  //        &:after {
+  //          transform: rotate(-45deg);
+  //          top: 0;
+  //        }
+  //
+  //        ul {
+  //          right: -45px;
+  //
+  //          li {
+  //            background-color: #e2e8ec;
+  //            width: 150px;
+  //            text-align: center;
+  //            border-radius: 45px;
+  //
+  //            a {
+  //              font-size: 24px;
+  //              letter-spacing: 5px;
+  //            }
+  //          }
+  //        }
+  //      }
+  //    }
+  //  }
+  //}
+
+
 }

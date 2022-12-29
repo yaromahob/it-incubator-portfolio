@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './ProjectsContainer.module.scss';
-import todolist from '../../assets/icons/todolist.jpg';
-import socialNetwork from '../../assets/icons/socialNetwork.jpg';
-import museum from '../../assets/png/museumNative.png';
-import photofilter from '../../assets/png/photofilter.png';
+import todolist from '../../assets/images/todolist.jpg';
+import socialNetwork from '../../assets/images/socialNetwork.jpg';
+import museum from '../../assets/images/museumNative.png';
+import photofilter from '../../assets/images/photofilter.png';
 import Projects from './Projects/Projects';
 
 
