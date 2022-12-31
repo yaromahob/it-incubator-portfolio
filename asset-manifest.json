@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/it-incubator-portfolio/static/css/main.d58259bb.css",
-    "main.js": "/it-incubator-portfolio/static/js/main.c8aa3b80.js",
+    "main.css": "/it-incubator-portfolio/static/css/main.8199a1a2.css",
+    "main.js": "/it-incubator-portfolio/static/js/main.66869c38.js",
     "static/media/museumNative.png": "/it-incubator-portfolio/static/media/museumNative.7f20baff5bb9450159e7.png",
     "static/media/photofilter.png": "/it-incubator-portfolio/static/media/photofilter.bfe16ac05f5c70048f93.png",
     "static/media/socialNetwork.jpg": "/it-incubator-portfolio/static/media/socialNetwork.4ed1febd0299c78ffee0.jpg",
@@ -14,17 +14,19 @@
     "static/media/reduxToolkit.svg": "/it-incubator-portfolio/static/media/reduxToolkit.3a42ba5dd6bd848513176d8dcb40d7c9.svg",
     "static/media/typeScript.svg": "/it-incubator-portfolio/static/media/typeScript.3a7ef12df7aa7f07eadd356c10c590e9.svg",
     "static/media/html.svg": "/it-incubator-portfolio/static/media/html.461715bc67c15e87fa83de22a12748ec.svg",
+    "static/media/sendBAD.svg": "/it-incubator-portfolio/static/media/sendBAD.9cb5b59c66a2de32515a2e5a89767d0d.svg",
+    "static/media/sendOK.svg": "/it-incubator-portfolio/static/media/sendOK.7312f69e32dfc70fe92a8c8724cc976a.svg",
     "index.html": "/it-incubator-portfolio/index.html",
     "static/media/gmail.svg": "/it-incubator-portfolio/static/media/gmail.6e0ade2c45186f2b38f2dda87136db57.svg",
     "static/media/telegram.svg": "/it-incubator-portfolio/static/media/telegram.d1d5b65828f3230b95bd093aa43703c9.svg",
     "static/media/javaScript.svg": "/it-incubator-portfolio/static/media/javaScript.a49b22771474cacd4f93c8562476f0b9.svg",
     "static/media/linkedin.svg": "/it-incubator-portfolio/static/media/linkedin.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/materialUi.svg": "/it-incubator-portfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.d58259bb.css.map": "/it-incubator-portfolio/static/css/main.d58259bb.css.map",
-    "main.c8aa3b80.js.map": "/it-incubator-portfolio/static/js/main.c8aa3b80.js.map"
+    "main.8199a1a2.css.map": "/it-incubator-portfolio/static/css/main.8199a1a2.css.map",
+    "main.66869c38.js.map": "/it-incubator-portfolio/static/js/main.66869c38.js.map"
   },
   "entrypoints": [
-    "static/css/main.d58259bb.css",
-    "static/js/main.c8aa3b80.js"
+    "static/css/main.8199a1a2.css",
+    "static/js/main.66869c38.js"
   ]
 }
