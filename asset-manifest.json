@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/it-incubator-portfolio/static/css/main.6e14b01d.css",
-    "main.js": "/it-incubator-portfolio/static/js/main.3c4ff6e9.js",
+    "main.css": "/it-incubator-portfolio/static/css/main.bcfbf0f7.css",
+    "main.js": "/it-incubator-portfolio/static/js/main.22ae9654.js",
     "static/media/museumNative.png": "/it-incubator-portfolio/static/media/museumNative.7f20baff5bb9450159e7.png",
     "static/media/photofilter.png": "/it-incubator-portfolio/static/media/photofilter.bfe16ac05f5c70048f93.png",
     "static/media/socialNetwork.jpg": "/it-incubator-portfolio/static/media/socialNetwork.4ed1febd0299c78ffee0.jpg",
     "static/media/todolist.jpg": "/it-incubator-portfolio/static/media/todolist.6a992f59bdbc7895b0a1.jpg",
-    "static/media/formik.svg": "/it-incubator-portfolio/static/media/formik.2df367655623c731631a005ebec188ea.svg",
-    "static/media/restAPI.svg": "/it-incubator-portfolio/static/media/restAPI.b6ebe9498ac6e29cf8cb23db0795b560.svg",
-    "static/media/react.svg": "/it-incubator-portfolio/static/media/react.6534ead3ebe3859845d289dc60d11183.svg",
+    "static/media/formik.svg": "/it-incubator-portfolio/static/media/formik.5abfdca21fb9441e4d3934ded44ecc30.svg",
+    "static/media/restAPI.svg": "/it-incubator-portfolio/static/media/restAPI.530bac58ab8d8f14516ee43b863b72a1.svg",
+    "static/media/react.svg": "/it-incubator-portfolio/static/media/react.a94b89052d254354fd6b350e21f0b4b2.svg",
     "static/media/sass.svg": "/it-incubator-portfolio/static/media/sass.540ec25faf04e640b555c5773d3a6d9f.svg",
-    "static/media/git.svg": "/it-incubator-portfolio/static/media/git.d30db9505398fbd32db50aefb2a4f92f.svg",
-    "static/media/reduxToolkit.svg": "/it-incubator-portfolio/static/media/reduxToolkit.1db5fbd3215f9c0a6dcabe6e14b56ef5.svg",
-    "static/media/typeScript.svg": "/it-incubator-portfolio/static/media/typeScript.6e8451e8e3c574b1132000fa01010803.svg",
-    "static/media/html.svg": "/it-incubator-portfolio/static/media/html.ec19463570b68ae32e16dd6012b0eec9.svg",
+    "static/media/git.svg": "/it-incubator-portfolio/static/media/git.5f3046d50e0176cae2dfc2f6ea277636.svg",
+    "static/media/reduxToolkit.svg": "/it-incubator-portfolio/static/media/reduxToolkit.3a42ba5dd6bd848513176d8dcb40d7c9.svg",
+    "static/media/typeScript.svg": "/it-incubator-portfolio/static/media/typeScript.3a7ef12df7aa7f07eadd356c10c590e9.svg",
+    "static/media/html.svg": "/it-incubator-portfolio/static/media/html.461715bc67c15e87fa83de22a12748ec.svg",
     "index.html": "/it-incubator-portfolio/index.html",
-    "static/media/javaScript.svg": "/it-incubator-portfolio/static/media/javaScript.5985da5677fcdf95f95bbee5e43a770c.svg",
+    "static/media/gmail.svg": "/it-incubator-portfolio/static/media/gmail.6e0ade2c45186f2b38f2dda87136db57.svg",
+    "static/media/telegram.svg": "/it-incubator-portfolio/static/media/telegram.d1d5b65828f3230b95bd093aa43703c9.svg",
+    "static/media/javaScript.svg": "/it-incubator-portfolio/static/media/javaScript.a49b22771474cacd4f93c8562476f0b9.svg",
+    "static/media/linkedin.svg": "/it-incubator-portfolio/static/media/linkedin.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/materialUi.svg": "/it-incubator-portfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.6e14b01d.css.map": "/it-incubator-portfolio/static/css/main.6e14b01d.css.map",
-    "main.3c4ff6e9.js.map": "/it-incubator-portfolio/static/js/main.3c4ff6e9.js.map"
+    "main.bcfbf0f7.css.map": "/it-incubator-portfolio/static/css/main.bcfbf0f7.css.map",
+    "main.22ae9654.js.map": "/it-incubator-portfolio/static/js/main.22ae9654.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e14b01d.css",
-    "static/js/main.3c4ff6e9.js"
+    "static/css/main.bcfbf0f7.css",
+    "static/js/main.22ae9654.js"
   ]
 }
