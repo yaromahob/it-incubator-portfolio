@@ -1,15 +1,23 @@
 import { useFormik } from "formik";
-import React from "react";
-import styles from "./ContactWithMe.module.scss";
+import React, { useState } from "react";
+import styles from "./Feedback.module.scss";
 import { postWithMe } from "./postMessage";
+import sendOK from "../../assets/icons/sendOK.svg";
+import sendBAD from "../../assets/icons/sendBAD.svg";
 
-export type FormikErrorType = {
+export type FormikType = {
   email?: string;
   name?: string;
   text?: string;
 };
 
-const ContactWithMe: React.FC = () => {
+const Feedback: React.FC = () => {
+  const [sendStatus, setSendStatus] = useState<null | boolean>(null);
+
+  const sendStatusCallback = (value: boolean) => {
+    setSendStatus(value);
+  };
+
   const formik = useFormik({
     initialValues: {
       name: "",
@@ -18,7 +26,7 @@ const ContactWithMe: React.FC = () => {
     },
 
     validate: (values) => {
-      const errors: FormikErrorType = {};
+      const errors: FormikType = {};
 
       if (!values.email) {
         errors.email = "Required";
@@ -33,14 +41,15 @@ const ContactWithMe: React.FC = () => {
       return errors;
     },
     onSubmit: (values) => {
-      postWithMe(values);
+      postWithMe(values, sendStatusCallback);
       formik.resetForm();
+      console.log(sendStatus);
     },
   });
   return (
     <section className={styles.forCommunication} id="contacts">
       <div className={styles.forCommunicationWrapper}>
-        <h3 className={styles.title}>Contacts</h3>
+        <h3 className={styles.title}>Feedback</h3>
         <div className={styles.feedBack}>
           <form className={styles.form} onSubmit={formik.handleSubmit}>
             <div className={styles.formExample}>
@@ -81,6 +90,7 @@ const ContactWithMe: React.FC = () => {
                 id=""
                 cols={30}
                 rows={10}
+                placeholder="your Message"
                 {...formik.getFieldProps("text")}
               ></textarea>
             </div>
@@ -88,6 +98,15 @@ const ContactWithMe: React.FC = () => {
               <button className={styles.submit} type="submit">
                 Submit
               </button>
+              {sendStatus !== null ? (
+                <img
+                  className={styles.status}
+                  src={sendStatus ? sendOK : sendBAD}
+                  alt="sendStatus"
+                />
+              ) : (
+                ""
+              )}
             </div>
           </form>
         </div>
@@ -96,4 +115,4 @@ const ContactWithMe: React.FC = () => {
   );
 };
 
-export default ContactWithMe;
+export default Feedback;
