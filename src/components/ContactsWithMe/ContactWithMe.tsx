@@ -7,17 +7,16 @@ export type FormikErrorType = {
   email?: string;
   name?: string;
   text?: string;
-  ok?: boolean;
 };
 
-const ContactWithMe = () => {
+const ContactWithMe: React.FC = () => {
   const formik = useFormik({
     initialValues: {
       name: "",
       email: "",
       text: "",
-      ok: false,
     },
+
     validate: (values) => {
       const errors: FormikErrorType = {};
 

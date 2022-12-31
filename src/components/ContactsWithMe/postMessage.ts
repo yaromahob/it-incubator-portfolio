@@ -6,12 +6,10 @@ export const postWithMe = (data: FormikErrorType) => {
     .post("https://formspree.io/f/mvonopjj", data)
     .then((res) => {
       if (res.data.ok) {
-        console.log("OK");
+        console.log(res.data.ok);
       }
     })
     .catch((e) => {
-      console.log(e);
+      return e.data.ok;
     });
 };
-// action="https://formspree.io/f/mvonopjj"
-// method="POST"
