@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import styles from "./Header.module.scss";
 
 type HeaderPropsType = {
   active: boolean;
   activeCallback: (isActive: boolean) => void;
 };
-const Header: React.FC<HeaderPropsType> = ({ active, activeCallback }) => {
+const Header: React.FC<HeaderPropsType> = ({active, activeCallback}) => {
   const navFullClass = active
     ? `${styles.burgerMenu} ${styles.active}`
     : styles.burgerMenu;
-
+  
   const activeHandle = () => {
     activeCallback(!active);
   };
-
+  
   return (
     <header className={styles.header} id="home">
       <div className={styles.headerWrapper}>
@@ -48,8 +48,8 @@ const Header: React.FC<HeaderPropsType> = ({ active, activeCallback }) => {
                 </a>
               </li>
               <li>
-                <a href="#contacts" onClick={activeHandle}>
-                  Contacts
+                <a href="#feedback" onClick={activeHandle}>
+                  Feedback
                 </a>
               </li>
             </ul>

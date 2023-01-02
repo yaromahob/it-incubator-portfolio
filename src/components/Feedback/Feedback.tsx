@@ -1,7 +1,7 @@
-import { useFormik } from "formik";
-import React, { useState } from "react";
+import {useFormik} from "formik";
+import React, {useState} from "react";
 import styles from "./Feedback.module.scss";
-import { postWithMe } from "./postMessage";
+import {postWithMe} from "./postMessage";
 import sendOK from "../../assets/icons/sendOK.svg";
 import sendBAD from "../../assets/icons/sendBAD.svg";
 
@@ -13,21 +13,21 @@ export type FormikType = {
 
 const Feedback: React.FC = () => {
   const [sendStatus, setSendStatus] = useState<null | boolean>(null);
-
+  
   const sendStatusCallback = (value: boolean) => {
     setSendStatus(value);
   };
-
+  
   const formik = useFormik({
     initialValues: {
       name: "",
       email: "",
       text: "",
     },
-
+    
     validate: (values) => {
       const errors: FormikType = {};
-
+      
       if (!values.email) {
         errors.email = "Required";
       } else if (
@@ -47,7 +47,7 @@ const Feedback: React.FC = () => {
     },
   });
   return (
-    <section className={styles.forCommunication} id="contacts">
+    <section className={styles.forCommunication} id="feedback">
       <div className={styles.forCommunicationWrapper}>
         <h3 className={styles.title}>Feedback</h3>
         <div className={styles.feedBack}>
@@ -84,7 +84,7 @@ const Feedback: React.FC = () => {
                   formik.errors.email}
               </div>
             </div>
-
+            
             <div className={styles.yourText}>
               <textarea
                 id=""
