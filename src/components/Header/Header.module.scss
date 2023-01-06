@@ -24,10 +24,12 @@
     }
 
     .nav {
+      position: relative;
       display: flex;
       justify-content: flex-end;
       width: 100%;
       margin: 0 10px;
+      z-index: 999;
 
       .burgerMenu {
         display: none;
@@ -45,6 +47,10 @@
           opacity: 0.9;
         }
       }
+
+      //.active {
+      //  display: none;
+      //}
     }
   }
 }
@@ -78,6 +84,7 @@
     .headerWrapper {
       .nav {
         position: relative;
+
         ul {
           position: absolute;
           flex-direction: column;
@@ -94,6 +101,7 @@
 
           li {
             margin: 25px 0;
+
             &:first-child {
               margin-top: 45px;
             }
@@ -104,6 +112,7 @@
           display: block;
           margin-right: 10px;
           z-index: 20;
+
           span {
             display: block;
             width: 40px;
@@ -138,6 +147,7 @@
 
         .active {
           position: absolute;
+
           span {
             scale: 0;
           }
