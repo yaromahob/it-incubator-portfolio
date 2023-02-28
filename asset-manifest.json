@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/it-incubator-portfolio/static/css/main.500b1170.css",
-    "main.js": "/it-incubator-portfolio/static/js/main.09a65b61.js",
-    "static/media/museumNative.png": "/it-incubator-portfolio/static/media/museumNative.7f20baff5bb9450159e7.png",
-    "static/media/photofilter.png": "/it-incubator-portfolio/static/media/photofilter.bfe16ac05f5c70048f93.png",
-    "static/media/socialNetwork.jpg": "/it-incubator-portfolio/static/media/socialNetwork.4ed1febd0299c78ffee0.jpg",
-    "static/media/todolist.jpg": "/it-incubator-portfolio/static/media/todolist.6a992f59bdbc7895b0a1.jpg",
+    "main.css": "/it-incubator-portfolio/static/css/main.d93f4b33.css",
+    "main.js": "/it-incubator-portfolio/static/js/main.311f5162.js",
+    "static/media/Portfolio.png": "/it-incubator-portfolio/static/media/Portfolio.7b18e2edd3b0cd5fb32a.png",
+    "static/media/museumNative.png": "/it-incubator-portfolio/static/media/museumNative.e4ed11fdc130f0618e2b.png",
+    "static/media/socialNetwork.jpg": "/it-incubator-portfolio/static/media/socialNetwork.249a7941cdad9788282a.jpg",
+    "static/media/todolist.png": "/it-incubator-portfolio/static/media/todolist.76e0ec5bf3a5513140ae.png",
+    "static/media/cards.png": "/it-incubator-portfolio/static/media/cards.50bb44c1c473de08c35f.png",
     "static/media/formik.svg": "/it-incubator-portfolio/static/media/formik.2df367655623c731631a005ebec188ea.svg",
     "static/media/restAPI.svg": "/it-incubator-portfolio/static/media/restAPI.b6ebe9498ac6e29cf8cb23db0795b560.svg",
     "static/media/react.svg": "/it-incubator-portfolio/static/media/react.6534ead3ebe3859845d289dc60d11183.svg",
@@ -22,11 +23,11 @@
     "static/media/javaScript.svg": "/it-incubator-portfolio/static/media/javaScript.5985da5677fcdf95f95bbee5e43a770c.svg",
     "static/media/linkedin.svg": "/it-incubator-portfolio/static/media/linkedin.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/materialUi.svg": "/it-incubator-portfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.500b1170.css.map": "/it-incubator-portfolio/static/css/main.500b1170.css.map",
-    "main.09a65b61.js.map": "/it-incubator-portfolio/static/js/main.09a65b61.js.map"
+    "main.d93f4b33.css.map": "/it-incubator-portfolio/static/css/main.d93f4b33.css.map",
+    "main.311f5162.js.map": "/it-incubator-portfolio/static/js/main.311f5162.js.map"
   },
   "entrypoints": [
-    "static/css/main.500b1170.css",
-    "static/js/main.09a65b61.js"
+    "static/css/main.d93f4b33.css",
+    "static/js/main.311f5162.js"
   ]
 }
