@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./ProjectsContainer.module.scss";
-import todolist from "../../assets/images/todolist.jpg";
+import todolist from "../../assets/images/todolist.png";
 import socialNetwork from "../../assets/images/socialNetwork.jpg";
 import museum from "../../assets/images/museumNative.png";
-import photofilter from "../../assets/images/photofilter.png";
+import Portfolio from "../../assets/images/Portfolio.png";
+import cards from "../../assets/images/cards.png";
 import Projects from "./Projects/Projects";
 
 const ProjectsContainer: React.FC = () => {
@@ -14,17 +15,26 @@ const ProjectsContainer: React.FC = () => {
 
         <div className={styles.skillsAndWorks}>
           <Projects
-            logo={todolist}
-            link={"https://yaromahob.github.io/incubator-todo-list-ts/"}
-            title={"Todolist"}
-            description={"React, Redux, ReduxThunk, Axios"}
+            logo={cards}
+            title={"Cards"}
+            link={
+              "https://yaromahob.github.io/it-incubator-friday-project"
+            }
+            description={"React, Redux, ReduxThunk, Axios, TS, React-router-dom, formik, dayjs"}
           />
-
           <Projects
-            logo={socialNetwork}
-            title={"Social Network"}
-            link={"https://incubator-social-network.vercel.app/"}
-            description={"React, Redux, ReduxThunk, Axios"}
+            logo={todolist}
+            link={"https://yaromahob.github.io/incubator-todolist-migration-toolkit"}
+            title={"Todolist"}
+            description={"React, Redux-toolkit, ReduxThunk, Axios, TS, formik"}
+          />
+          <Projects
+            logo={Portfolio}
+            title={"Portfolio"}
+            link={
+              "https://yaromahob.github.io/it-incubator-portfolio/"
+            }
+            description={"React, Axios, TS, formik, node-sass"}
           />
           <Projects
             logo={museum}
@@ -34,14 +44,14 @@ const ProjectsContainer: React.FC = () => {
             }
             description={"JS Native"}
           />
+          
           <Projects
-            logo={photofilter}
-            title={"Photofilter"}
-            link={
-              "https://rolling-scopes-school.github.io/yaromahob-JSFEPRESCHOOL/photofilter/"
-            }
-            description={"JS Native"}
+            logo={socialNetwork}
+            title={"Social Network"}
+            link={"https://incubator-social-network.vercel.app/"}
+            description={"React, Redux, ReduxThunk, Axios"}
           />
+
         </div>
       </div>
     </section>
