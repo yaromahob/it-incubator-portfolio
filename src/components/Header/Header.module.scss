@@ -41,45 +41,51 @@
         justify-content: space-between;
         min-width: 500px;
 
-        li a {
-          font-size: 20px;
-          letter-spacing: 1.6px;
-          opacity: 0.9;
+        li {
+          transition: 0.6s;
+
+          a {
+            font-size: 20px;
+            letter-spacing: 1.6px;
+            padding: 5px 8px;
+            border-radius: 15px;
+            opacity: 0.9;
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            &:hover {
+              color: #fff;
+              background-color: $mainColor;
+            }
+
+            &:active {
+              background-color: #145d99;
+              box-shadow: 0 0 8px 4px rgba(20, 93, 153, 0.2) inset;
+            }
+          }
+
+          .cv {
+            color: $mainColor;
+          }
+
+          &:hover {
+            transform: translateY(1px);
+
+          }
+
+          &:active {
+            transform: translateY(0px);
+
+          }
         }
       }
 
-      //.active {
-      //  display: none;
-      //}
     }
   }
 }
+
+
 
 @media (max-width: 800px) {
-  .header {
-    .headerWrapper {
-      .nav {
-        margin: 0;
-
-        ul {
-          justify-content: space-evenly;
-          min-width: 350px;
-          width: 70%;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 620px) {
-  .writeMe {
-    h2 {
-      display: none;
-    }
-  }
-}
-
-@media (max-width: 480px) {
   .header {
     .headerWrapper {
       .nav {
@@ -99,8 +105,32 @@
           transition: all 0.4s ease 0s;
           transform: translate(5%, -100%);
 
+
+
           li {
             margin: 25px 0;
+
+            a {
+              padding: 0;
+              &:hover {
+                color: inherit;
+                background-color: inherit;
+                box-shadow: none
+              }
+
+              &:active {
+                background-color: inherit;
+
+              }
+            }
+            &:hover {
+              transform: translateY(0px);
+
+            }
+
+            &:active {
+              transform: translateY(0px);
+            }
 
             &:first-child {
               margin-top: 45px;
@@ -167,7 +197,7 @@
 
             li {
               background-color: #e2e8ec;
-              width: 150px;
+              width: 220px;
               text-align: center;
               border-radius: 45px;
 
@@ -182,3 +212,4 @@
     }
   }
 }
+

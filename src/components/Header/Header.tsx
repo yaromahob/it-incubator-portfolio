@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import styles from "./Header.module.scss";
+import cv from '../../assets/yaromahobCV.pdf'
 
 type HeaderPropsType = {
   active: boolean;
@@ -51,6 +52,9 @@ const Header: React.FC<HeaderPropsType> = ({active, activeCallback}) => {
                 <a href="#feedback" onClick={activeHandle}>
                   Feedback
                 </a>
+              </li>
+              <li>
+                <a className={styles.cv} href={cv} download>Download CV</a>
               </li>
             </ul>
           </div>
