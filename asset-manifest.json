@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/it-incubator-portfolio/static/css/main.d93f4b33.css",
-    "main.js": "/it-incubator-portfolio/static/js/main.311f5162.js",
+    "main.css": "/it-incubator-portfolio/static/css/main.6be3b116.css",
+    "main.js": "/it-incubator-portfolio/static/js/main.f1bf2a7e.js",
     "static/media/Portfolio.png": "/it-incubator-portfolio/static/media/Portfolio.7b18e2edd3b0cd5fb32a.png",
     "static/media/museumNative.png": "/it-incubator-portfolio/static/media/museumNative.e4ed11fdc130f0618e2b.png",
+    "static/media/yaromahobCV.pdf": "/it-incubator-portfolio/static/media/yaromahobCV.b83db7c229c5c1043a18.pdf",
     "static/media/socialNetwork.jpg": "/it-incubator-portfolio/static/media/socialNetwork.249a7941cdad9788282a.jpg",
     "static/media/todolist.png": "/it-incubator-portfolio/static/media/todolist.76e0ec5bf3a5513140ae.png",
     "static/media/cards.png": "/it-incubator-portfolio/static/media/cards.50bb44c1c473de08c35f.png",
@@ -23,11 +24,11 @@
     "static/media/javaScript.svg": "/it-incubator-portfolio/static/media/javaScript.5985da5677fcdf95f95bbee5e43a770c.svg",
     "static/media/linkedin.svg": "/it-incubator-portfolio/static/media/linkedin.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/materialUi.svg": "/it-incubator-portfolio/static/media/materialUi.fd510ed8518b192069590b04e2e6348a.svg",
-    "main.d93f4b33.css.map": "/it-incubator-portfolio/static/css/main.d93f4b33.css.map",
-    "main.311f5162.js.map": "/it-incubator-portfolio/static/js/main.311f5162.js.map"
+    "main.6be3b116.css.map": "/it-incubator-portfolio/static/css/main.6be3b116.css.map",
+    "main.f1bf2a7e.js.map": "/it-incubator-portfolio/static/js/main.f1bf2a7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d93f4b33.css",
-    "static/js/main.311f5162.js"
+    "static/css/main.6be3b116.css",
+    "static/js/main.f1bf2a7e.js"
   ]
 }
