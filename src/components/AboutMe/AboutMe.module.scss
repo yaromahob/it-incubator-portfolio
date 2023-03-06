@@ -45,7 +45,7 @@
         opacity: 0.7;
       }
 
-      .discriptions {
+      .descriptions {
         span {
           display: block;
           padding: 5px;
@@ -55,13 +55,13 @@
     }
 
     .avatar {
-      max-width: 360px;
-      box-shadow: $boxShadow;
+      display: flex;
+      box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
       border-radius: 15px;
+      overflow: hidden;
 
       img {
-        width: 360px;
-        height: 422px;
+        height: 420px;
       }
     }
   }
@@ -82,8 +82,8 @@
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
-        width: 100%;
-        max-width: 100%;
+        //width: 100%;
+        //max-width: 100%;
       }
     }
   }

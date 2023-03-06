@@ -1,5 +1,7 @@
 import React from "react";
+import photo from '../../assets/images/CVV2.jpg'
 import styles from "./AboutMe.module.scss";
+
 const AboutMe = () => {
   return (
     <section className={styles.blockOne}>
@@ -10,8 +12,7 @@ const AboutMe = () => {
             Hi, I'm
             <span>Alexandr Romanov</span>
           </h2>
-          {/* <span>Frontend Developer</span> */}
-          <div className={styles.discriptions}>
+          <div className={styles.descriptions}>
             <span>I’m a frontend developer.</span>
             <span>I am creating SPA-apps use React(JS/TS), Redux.</span>
             <span>
@@ -24,8 +25,9 @@ const AboutMe = () => {
 
         <div className={styles.avatar}>
           <img
-            src="https://www.svgrepo.com/show/65453/avatar.svg"
+            src={photo}
             alt="avatar"
+            title="It's me :D"
           />
         </div>
       </div>
